@@ -1,0 +1,7 @@
+{
+  "name": "hoiso-synergy-league",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": { "@upstash/redis": "^1.34.0" },
+  "engines": { "node": ">=18" }
+}
