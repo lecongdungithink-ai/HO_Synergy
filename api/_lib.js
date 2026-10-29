@@ -1,6 +1,6 @@
 const crypto = require('crypto');
 const { Redis } = require('@upstash/redis');
-const seed = require('../data/seed.json');
+const seed = require('./seed.json');
 
 const redis = new Redis({
   url: process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL,
